@@ -51,7 +51,7 @@ const Home = () => {
       <h1 style={{ color: "goldenrod" }} className="m-3">
         List of Users
       </h1>
-      <div className="w-75 rounded bg-white border shadow p-4">
+      <div className="w-75 rounded bg-white border shadow p-4 mb-3">
         <div className="d-flex justify-content-end mb-2">
           <Button variant="success" onClick={() => navigate("/create")}>
             Add User +
